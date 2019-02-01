@@ -6,6 +6,74 @@ OVERVIEW
 
 The goal of this project is to build a rocket that can control its flight.
 This document is meant to explicitly define what a controlled flight is 
-and what the current plans are to achieve that. 
+and what the current plans are to achieve such.
+
+To support the rocketry component of this project, I'll also be learning how
+to create a database, a web server, an API, apps for android and iPhone to control the
+rocket and a web page with an overview of the project, a blog, and an admin console
+for viewing flight data. 
+
+----------------*
+INSPIRATION
+----------------*
+
+My goal is to someday work on a machine that will fly
+in space. These machines are big. They have millions of parts and thousands
+of people who work on them. They are incredibly cost prohibitive. I want to
+have some of that experience, but on a much smaller scale. A model rocket is
+the obvious solution. I'm not the first with this idea, however, though
+I do plan on making it my own.
+
+If you want to see my initial inspiration, view this YouTube channel:
+
+https://www.youtube.com/channel/UCILl8ozWuxnFYXIe2svjHhg
+
+----------------*
+REQUIREMENTS
+----------------*
+
+The rocket must be able to: 
+
+1. Track and record important measurements such as the following:
+    1a. Height
+    2a. Velocity
+    3a. Acceleration
+    4a. Direction / Heading
+
+2. Use the measurements above to take off, control its flight, and land
+at a pre-programmed location.
+
+3. Read commands from the iOS and Android Apps.
+
+The launch pad must be able to:
+
+1. Hold the rocket in position till it is ready to launch.
+2. Read commands from the iOS and Android apps.
+
+The iOS and Android apps must be able to:
+
+1. Send commands to the rocket. (i.e. launch) 
+2. Read data from the rocket
+3. Send that data to the web server
+
+The web serer must: 
+
+1. Read in and store flight data from the iOS and Android applications.
+2. Securely store user information from the webpage.
+3. Provide a simple API for the admin console and apps to communicate with.
+
+The web page must:
+
+1. Present a record of the project's advancements and setbacks (blog)
+2. Have an overview of the project itself for visitors.
+3. Allow administrative access to the database. 
+
+
+-------------*
+STEPS
+-------------*
+
+There is a lot I'll have to learn to complete this project and many goals I'll have to set. 
+
 
 
