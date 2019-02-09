@@ -1,0 +1,9 @@
+2/8/19
+
+Today I did the following: 
+Enabled 2FA on my digital ocean account. 
+Set up SSH keys on my digital ocean droplet for rocket-test
+Disabled password authentication into the droplet.
+Set up the firewall (see https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-16-04)
+
+
